@@ -16,8 +16,8 @@ class DataManager:
         }
 
     def asign_iata(self):
-        tequila_endpoint = "https://tequila-api.kiwi.com/locations/query"
-        sheety_endpoint = "https://api.sheety.co/8e7ef2b96e4469909514ca725390ed64/flightDeals/prices"
+        tequila_endpoint = ""
+        sheety_endpoint = ""
 
         read_sheety_response = requests.get(url=sheety_endpoint)
 
@@ -38,7 +38,7 @@ class DataManager:
 
     def update_google_sheet(self):
 
-        sheety_endpoint = "https://api.sheety.co/8e7ef2b96e4469909514ca725390ed64/flightDeals/prices"
+        sheety_endpoint = ""
 
         sheety_headers = {
             "Content-Type": "application/json"

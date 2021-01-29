@@ -1,10 +1,10 @@
 import requests
 from datetime import datetime
 # creating a user ----------------------------------------------------------------------------
-pixela_endpoint = "https://pixe.la/v1/users"
+pixela_endpoint = ""
 
 TOKEN = 
-USERNAME = "kokoichihara"
+USERNAME = ""
 user_params = {
     "token": TOKEN,
     "username": USERNAME,
